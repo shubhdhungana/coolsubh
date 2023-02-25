@@ -49,82 +49,80 @@ This is the ultimate bug bounty automation &amp; web hacking script that I've cr
 
 ### All tools used below are available on github
 
-•	Subdomain Enumeration: Sublist3r, Amass, subfinder, assetfinder, massdns, Findomain, 
-•	Port Scanning: masscan, nmap
-•	Screenshots: EyeWitness, aquatone
-•	Technologies: wappalyzer, webanalyze, 
-•	Content Discovery: gobuster, feroxbuster, dirsearch, dirsearch (Go implementation), gospider, hakrawler, 
-•	Links: LinkFinder, JS-Scan, waybackurls, gau, 
-•	Parameters: parameth, Arjun, x8
-•	Fuzzing: wfuzz, ffuf, fuzzdb, 
-•	Command Injection: commix 
-•	CORS Misconfiguration: Corsy, CORStest, 
-•	CRLF Injection: CRLFsuite, crlfuzz, 
-•	CSRF Injection: XSRFProbe 
-•	Directory Traversal: dotdotpwn, FDsploit, off-by-slash, 
-•	File Inclusion: liffy, Burp-LFI-tests, LFI-Enum, 
-•	GraphQL Injection: inql, GraphQLmap, shapeshifter, 
-•	Header Injection: headi 
-•	Insecure Deserialization: ysoserial, GadgetProbe, ysoserial.net, 
-•	Insecure Direct Object References: Autorize 
-•	Open Redirect: Oralyzer, Injectus, dom-red, 
-•	Request Smuggling: http-request-smuggling, smuggler, h2csmuggler, 
-•	Server Side Request Forgery: SSRFmap, Gopherus, ground-control, SSRFire, 
-•	SQL Injection: sqlmap, NoSQLMap, SQLiScanner, 
-•	XSS Injection: XSStrike, xssor2, dalfox, BruteXSS 
-•	XXE Injection: ground-control, dtd-finder, 
-•	Passwords: thc-hydra, 
-•	Secrets: git-secrets, gitleaks, truffleHog, 
-•	Git: GitTools, gitjacker, git-dumper, 
-•	Buckets: S3Scanner, AWSBucketDump, 
-•	CMS: wpscan, WPSpider, wprecon, 
-•	JSON Web Token: jwt_tool, c-jwt-cracker, 
-•	postMessage: postMessage-tracker, PostMessage_Fuzz_Tool
-•	Subdomain Takeover: subjack, SubOver, autoSubTakeover, NSBrute, can-i-take-over-xyz, 
-•	Vulnerability Scanners: nuclei, Sn1per, 
+1.	Subdomain Enumeration: Sublist3r, Amass, subfinder, assetfinder, massdns, Findomain, 
+2.	Port Scanning: masscan, nmap
+3.	Screenshots: EyeWitness, aquatone
+4.	Technologies: wappalyzer, webanalyze, 
+5.	Content Discovery: gobuster, feroxbuster, dirsearch, dirsearch (Go implementation), gospider, hakrawler, 
+6.	Links: LinkFinder, JS-Scan, waybackurls, gau, 
+7.	Parameters: parameth, Arjun, x8
+8.	Fuzzing: wfuzz, ffuf, fuzzdb, 
+9.	Command Injection: commix 
+10.	CORS Misconfiguration: Corsy, CORStest, 
+11.	CRLF Injection: CRLFsuite, crlfuzz, 
+12.	CSRF Injection: XSRFProbe 
+13.	Directory Traversal: dotdotpwn, FDsploit, off-by-slash, 
+14.	File Inclusion: liffy, Burp-LFI-tests, LFI-Enum, 
+15.	GraphQL Injection: inql, GraphQLmap, shapeshifter, 
+16.	Header Injection: headi 
+17.	Insecure Deserialization: ysoserial, GadgetProbe, ysoserial.net, 
+18.	Insecure Direct Object References: Autorize 
+19.	Open Redirect: Oralyzer, Injectus, dom-red, 
+20.	Request Smuggling: http-request-smuggling, smuggler, h2csmuggler, 
+21.	Server Side Request Forgery: SSRFmap, Gopherus, ground-control, SSRFire, 
+22.	SQL Injection: sqlmap, NoSQLMap, SQLiScanner, 
+23.	XSS Injection: XSStrike, xssor2, dalfox, BruteXSS 
+24.	XXE Injection: ground-control, dtd-finder, 
+25.	Passwords: thc-hydra, 
+26.	Secrets: git-secrets, gitleaks, truffleHog, 
+27.	Git: GitTools, gitjacker, git-dumper, 
+28.	Buckets: S3Scanner, AWSBucketDump, 
+29.	CMS: wpscan, WPSpider, wprecon, 
+30.	JSON Web Token: jwt_tool, c-jwt-cracker, 
+31.	postMessage: postMessage-tracker, PostMessage_Fuzz_Tool
+32.	Subdomain Takeover: subjack, SubOver, autoSubTakeover, NSBrute, can-i-take-over-xyz, 
+33.	Vulnerability Scanners: nuclei, Sn1per, 
 
 
 
 # Tool Structure
 read above all answers, analyse it and help me making my technologies.sh file . Update my technologies.sh file and make it more better, more efficient and more useful according to main.sh file scenario and structure.
-
-•	bug_bounty_automation/
-•	main.sh
-•	modules/
-o	subdomain_enumeration.sh
-o	port_scanning.sh
-o	screenshots.sh
-o	technologies.sh
-o	content_discovery.sh
-o	links.sh
-o	parameters.sh
-o	fuzzing.sh
-o	command_injection.sh
-o	cors_misconfiguration.sh
-o	crlf_injection.sh
-o	csrf_injection.sh
-o	directory_traversal.sh
-o	file_inclusion.sh
-o	graphql_injection.sh
-o	header_injection.sh
-o	insecure_deserialization.sh
-o	insecure_direct_object_references.sh
-o	open_redirect.sh
-o	race_condition.sh
-o	request_smuggling.sh
-o	server_side_request_forgery.sh
-o	sql_injection.sh
-o	xss_injection.sh
-o	xxe_injection.sh
-o	passwords.sh
-o	secrets.sh
-o	git.sh
-o	buckets.sh
-o	cms.sh
-o	json_web_token.sh
-o	post_message.sh
-o	subdomain_takeover.sh
-o	vulnerability_scanners.sh
-
+1)	bug_bounty_automation/
+2)	main.sh
+3)	modules/
+a)	subdomain_enumeration.sh
+b)	port_scanning.sh
+c)	screenshots.sh
+d)	technologies.sh
+e)	content_discovery.sh
+f)	links.sh
+g)	parameters.sh
+h)	fuzzing.sh
+i)	command_injection.sh
+j)	cors_misconfiguration.sh
+k)	crlf_injection.sh
+l)	csrf_injection.sh
+m)	directory_traversal.sh
+n)	file_inclusion.sh
+o)	graphql_injection.sh
+p)	header_injection.sh
+q)	insecure_deserialization.sh
+r)	insecure_direct_object_references.sh
+s)	open_redirect.sh
+t)	race_condition.sh
+u)	request_smuggling.sh
+v)	server_side_request_forgery.sh
+w)	sql_injection.sh
+x)	xss_injection.sh
+y)	xxe_injection.sh
+z)	passwords.sh
+aa)	secrets.sh
+bb)	git.sh
+cc)	buckets.sh
+dd)	cms.sh
+ee)	json_web_token.sh
+ff)	post_message.sh
+gg)	subdomain_takeover.sh
+hh)	vulnerability_scanners.sh
 
 
