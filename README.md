@@ -126,4 +126,7 @@ read above all answers, analyse it and help me making my technologies.sh file . 
 36.	subdomain_takeover.sh
 37.	vulnerability_scanners.sh
 
+Created By: Shubham Dhungana
+Cyber Security Researcher
+
 
